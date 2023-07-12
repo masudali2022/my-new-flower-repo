@@ -9,7 +9,7 @@
     background-color: rgb(244, 174, 209);
     background-image: url('./images/flower1.png' );
     background-repeat: no-repeat;
-    background-size: 550px;
+    background-size: 500px;
     background-position:  right;
 
 }
@@ -68,13 +68,36 @@ text-align: center;
 
 }
 
-.image {
-display: flex;
-padding: 5px;
-
-
+.image{
+    display: flex;
+    flex-direction:30px 0px 0px 30px ;
+    justify-content:space-between;
+    background-color:beige;
+    box-shadow: 30px 30px 30px 30px;
+    border-top-right-radius:11vw; 
+    border-top-left-radius: 11vw;
+         
 }
 
+
+.img-1{
+background-color: aqua;
+border-top-left-radius: 11vw;
+border-top-right-radius: 11vw;
+
+}
+.img-2{
+    background-color:aquamarine ;
+
+border-top-left-radius: 11vw;
+border-top-right-radius: 11vw;
+}
+
+.img-3{
+background-color: blueviolet;
+border-top-left-radius: 11vw;
+border-top-right-radius: 11vw;
+}
 
 
 
